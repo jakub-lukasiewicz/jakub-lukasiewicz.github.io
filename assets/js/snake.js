@@ -6,9 +6,9 @@ const foodBorder = 'white';
 const foodBody = 'red';
 
 let snake = [
-  { x: 200, y: 200 },
-  { x: 190, y: 200 },
-  { x: 180, y: 200 },
+  { x: 150, y: 150 },
+  { x: 140, y: 150 },
+  { x: 130, y: 150 },
 ];
 
 let horizontalMovement = 10;
@@ -29,9 +29,9 @@ function main() {
       location.reload();
     } else return;
   }
-  
+
   changingDirection = false;
-  
+
   setTimeout(function onTick() {
     clearBoard();
     drawFood();
