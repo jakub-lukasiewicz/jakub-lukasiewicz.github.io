@@ -6,9 +6,9 @@ const foodBorder = 'white';
 const foodBody = 'red';
 
 let snake = [
-  { x: 150, y: 150 },
-  { x: 140, y: 150 },
-  { x: 130, y: 150 },
+  { x: 50, y: 150 },
+  { x: 40, y: 150 },
+  { x: 30, y: 150 },
 ];
 
 let horizontalMovement = 10;
